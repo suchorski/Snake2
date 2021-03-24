@@ -1,0 +1,52 @@
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+#include "resource.h"
+
+
+
+
+//
+// Icon resources
+//
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+IDI_ICON1          ICON           ".\\snake.ico"
+
+
+
+//
+// Version Information resources
+//
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+1 VERSIONINFO
+    FILEVERSION     2,0,0,0
+    PRODUCTVERSION  2,0,0,0
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_APP
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   0x00000000
+    FILEFLAGS       0x00000000
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "0416FDE9"
+        {
+            VALUE "Comments", ""
+            VALUE "CompanyName", "Thiago Suchorski"
+            VALUE "FileDescription", ""
+            VALUE "FileVersion", "2.0.0.0"
+            VALUE "InternalName", "Snake2"
+            VALUE "LegalCopyright", "© 2012 Todos os direitos reservados a www.codando.com"
+            VALUE "LegalTrademarks", ""
+            VALUE "OriginalFilename", "Snake2.exe"
+            VALUE "PrivateBuild", ""
+            VALUE "ProductName", "Snake2"
+            VALUE "ProductVersion", ""
+            VALUE "SpecialBuild", ""
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0416, 0xFDE9
+    }
+}
